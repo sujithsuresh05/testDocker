@@ -23,5 +23,9 @@ public class HelloController implements ErrorController{
     }
 }
 
-//  sudo docker build -f Dockerfile -t hello-kubernetes:latest .
+//sudo docker build -f Dockerfile -t hello-kubernetes:latest .
 //docker run -p 5000:5000 sujith05/hello-sujith-kubernetes:latest
+//docker build -f Dockerfile -t hello-kubernetes:latest .
+//docker build -f Dockerfile -t sujith05/hello-kubernetes:latest2 .
+//docker push sujith05/hello-sujith-kubernetes:latest2
+//docker run -p 5000:5000 sujith05/hello-kubernetes:latest2
